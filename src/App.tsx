@@ -20,7 +20,7 @@ function App() {
 
                 <div className='Card'>
                     <b>Counter Value</b>
-                    <div>{value ?? 'Loading...'}</div>
+                    <div>{value ? value - 1698592078430 : 'Loading...'}</div>
                 </div>
 
                 <a
